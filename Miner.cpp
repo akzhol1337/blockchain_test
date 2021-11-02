@@ -18,6 +18,8 @@ void Miner::mine(Blockchain blockchain, TransactionData data) {
     int len = 0;
     cout << randomCaptcha << "\n";
     while(len != 4){
+
+        this_thread::sleep_for(chrono::milliseconds(1000));
         cout << currentCaptcha;
         for(int i = 1; i <= 4 - len; i++){
             cout << "*";

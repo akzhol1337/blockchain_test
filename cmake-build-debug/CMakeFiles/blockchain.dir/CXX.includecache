@@ -16,10 +16,6 @@ TransactionData.h
 Block.h
 /Users/undefined/CLionProjects/blockchain_test/Block.h
 
-/Users/undefined/CLionProjects/blockchain_test/Miner.cpp
-Miner.h
-/Users/undefined/CLionProjects/blockchain_test/Miner.h
-
 /Users/undefined/CLionProjects/blockchain_test/Miner.h
 bits/stdc++.h
 -
@@ -33,4 +29,16 @@ TransactionData.h
 /Users/undefined/CLionProjects/blockchain_test/TransactionData.h
 bits/stdc++.h
 -
+
+/Users/undefined/CLionProjects/blockchain_test/main.cpp
+bits/stdc++.h
+-
+Blockchain.h
+/Users/undefined/CLionProjects/blockchain_test/Blockchain.h
+Block.h
+/Users/undefined/CLionProjects/blockchain_test/Block.h
+TransactionData.h
+/Users/undefined/CLionProjects/blockchain_test/TransactionData.h
+Miner.h
+/Users/undefined/CLionProjects/blockchain_test/Miner.h
 
