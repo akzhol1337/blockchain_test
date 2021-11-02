@@ -3,15 +3,18 @@
 
 CMakeFiles/blockchain.dir/Block.cpp.o: ../Block.cpp
 CMakeFiles/blockchain.dir/Block.cpp.o: ../Block.h
-CMakeFiles/blockchain.dir/Block.cpp.o: ../Blockchain.h
-CMakeFiles/blockchain.dir/Block.cpp.o: ../main.cpp
+CMakeFiles/blockchain.dir/Block.cpp.o: ../TransactionData.h
 
 CMakeFiles/blockchain.dir/Blockchain.cpp.o: ../Block.h
 CMakeFiles/blockchain.dir/Blockchain.cpp.o: ../Blockchain.cpp
 CMakeFiles/blockchain.dir/Blockchain.cpp.o: ../Blockchain.h
-CMakeFiles/blockchain.dir/Blockchain.cpp.o: ../main.cpp
+CMakeFiles/blockchain.dir/Blockchain.cpp.o: ../TransactionData.h
+
+CMakeFiles/blockchain.dir/TransactionData.cpp.o: ../TransactionData.cpp
+CMakeFiles/blockchain.dir/TransactionData.cpp.o: ../TransactionData.h
 
 CMakeFiles/blockchain.dir/main.cpp.o: ../Block.h
 CMakeFiles/blockchain.dir/main.cpp.o: ../Blockchain.h
+CMakeFiles/blockchain.dir/main.cpp.o: ../TransactionData.h
 CMakeFiles/blockchain.dir/main.cpp.o: ../main.cpp
 

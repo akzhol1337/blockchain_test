@@ -1,7 +1,11 @@
 //
 // Created by undefined on 02.11.2021.
 //
-#include "main.cpp"
+
+#include <bits/stdc++.h>
+#include "TransactionData.h"
+
+
 
 #ifndef BLOCKCHAIN_BLOCK_H
 #define BLOCKCHAIN_BLOCK_H

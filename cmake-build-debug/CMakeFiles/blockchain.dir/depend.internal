@@ -4,14 +4,17 @@
 CMakeFiles/blockchain.dir/Block.cpp.o
  /Users/undefined/CLionProjects/blockchain_test/Block.cpp
  /Users/undefined/CLionProjects/blockchain_test/Block.h
- /Users/undefined/CLionProjects/blockchain_test/Blockchain.h
- /Users/undefined/CLionProjects/blockchain_test/main.cpp
+ /Users/undefined/CLionProjects/blockchain_test/TransactionData.h
 CMakeFiles/blockchain.dir/Blockchain.cpp.o
  /Users/undefined/CLionProjects/blockchain_test/Block.h
  /Users/undefined/CLionProjects/blockchain_test/Blockchain.cpp
  /Users/undefined/CLionProjects/blockchain_test/Blockchain.h
- /Users/undefined/CLionProjects/blockchain_test/main.cpp
+ /Users/undefined/CLionProjects/blockchain_test/TransactionData.h
+CMakeFiles/blockchain.dir/TransactionData.cpp.o
+ /Users/undefined/CLionProjects/blockchain_test/TransactionData.cpp
+ /Users/undefined/CLionProjects/blockchain_test/TransactionData.h
 CMakeFiles/blockchain.dir/main.cpp.o
  /Users/undefined/CLionProjects/blockchain_test/Block.h
  /Users/undefined/CLionProjects/blockchain_test/Blockchain.h
+ /Users/undefined/CLionProjects/blockchain_test/TransactionData.h
  /Users/undefined/CLionProjects/blockchain_test/main.cpp

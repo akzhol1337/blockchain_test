@@ -3,6 +3,7 @@
 //
 
 #include "Block.h"
+#include "TransactionData.h"
 
 int Block::getIndex() const {
     return index;

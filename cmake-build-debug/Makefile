@@ -197,6 +197,33 @@ Blockchain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blockchain.dir/build.make CMakeFiles/blockchain.dir/Blockchain.cpp.s
 .PHONY : Blockchain.cpp.s
 
+TransactionData.o: TransactionData.cpp.o
+
+.PHONY : TransactionData.o
+
+# target to build an object file
+TransactionData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blockchain.dir/build.make CMakeFiles/blockchain.dir/TransactionData.cpp.o
+.PHONY : TransactionData.cpp.o
+
+TransactionData.i: TransactionData.cpp.i
+
+.PHONY : TransactionData.i
+
+# target to preprocess a source file
+TransactionData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blockchain.dir/build.make CMakeFiles/blockchain.dir/TransactionData.cpp.i
+.PHONY : TransactionData.cpp.i
+
+TransactionData.s: TransactionData.cpp.s
+
+.PHONY : TransactionData.s
+
+# target to generate assembly for a file
+TransactionData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blockchain.dir/build.make CMakeFiles/blockchain.dir/TransactionData.cpp.s
+.PHONY : TransactionData.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -239,6 +266,9 @@ help:
 	@echo "... Blockchain.o"
 	@echo "... Blockchain.i"
 	@echo "... Blockchain.s"
+	@echo "... TransactionData.o"
+	@echo "... TransactionData.i"
+	@echo "... TransactionData.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

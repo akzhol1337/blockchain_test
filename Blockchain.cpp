@@ -4,6 +4,7 @@
 
 #include "Blockchain.h"
 #include "Block.h"
+#include "TransactionData.h"
 
 Block Blockchain::createFirstBlock() {
     time_t current;
