@@ -9,11 +9,12 @@
 #include "Block.h"
 
 class Blockchain {
-    vector<Block>chain;
+public:
+
     Block createFirstBlock();
 
     Block *getLatestBlock();
-public:
+    vector<Block>chain;
     void printBlockchain();
     bool isBlockchainValid();
     Blockchain();

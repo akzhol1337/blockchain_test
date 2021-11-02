@@ -7,6 +7,14 @@
 
 using namespace std;
 
+double getTotalVolume(Blockchain &chain){
+    double totalamount = 0;
+    for(auto const &to : chain.chain){
+        totalamount += to.getTransactionData().amount;
+    }
+    return totalamount;
+}
+
 void firstThread(Blockchain *blockchain, TransactionData data, Miner miner){
     miner.mine(*blockchain, data);
     blockchain->addBlock(data);
