@@ -32,7 +32,7 @@ public:
 
     Block(int index, const TransactionData &transactionData, size_t prevHash);
 
-    size_t generateHash();
+    size_t generateHash() const;
 
 };
 

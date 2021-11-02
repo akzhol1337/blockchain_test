@@ -11,9 +11,14 @@
 class Blockchain {
     vector<Block>chain;
     Block createFirstBlock();
-    void addBlock(TransactionData data);
-    Block *getLatestBlock();
 
+    Block *getLatestBlock();
+public:
+    void printBlockchain();
+    bool isBlockchainValid();
+    Blockchain();
+
+    void addBlock(TransactionData data);
 };
 
 

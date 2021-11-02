@@ -1,17 +1,18 @@
 #include <bits/stdc++.h>
 
+#include "Blockchain.h"
+#include "Block.h"
+
 using namespace std;
+iain() {
+    Blockchain *blockchain = new Blockchain();
+    blockchain->addBlock(new TransactionData(100, "Akzhol", "Muha", time(0)));
 
-struct TransactionData {
-    double amount;
-    string senderKey;
-    string receiverKey;
-    time_t timestamp;
+    blockchain->addBlock(new TransactionData(200, "Raiko", "Muha", time(0)));
 
-    TransactionData(double amount, const string &senderKey, const string &receiverKey, time_t timestamp) : amount(
-            amount), senderKey(senderKey), receiverKey(receiverKey), timestamp(timestamp) {}
-};
+    blockchain->addBlock(new TransactionData(50, "Adik", "Muha", time(0)));
 
-int main() {
+    blockchain->addBlock(new TransactionData(350, "Muha", "Raiko", time(0)));
 
+    blockchain->printBlockchain();
 }

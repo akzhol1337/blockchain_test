@@ -3,6 +3,7 @@
 //
 
 #include "Blockchain.h"
+#include "Block.h"
 
 Block Blockchain::createFirstBlock() {
     time_t current;
@@ -20,4 +21,24 @@ void Blockchain::addBlock(TransactionData data) {
 
 Block *Blockchain::getLatestBlock() {
     return &chain.back();
+}
+
+Blockchain::Blockchain() {
+    Block firstBlock = createFirstBlock();
+    chain.push_back(firstBlock);
+}
+
+void Blockchain::printBlockchain() {
+    for(auto const &to : chain){
+        cout << to.getIndex() << ": " << to.getTransactionData().timestamp << " " << to.getTransactionData().senderKey << " -> " << to.getTransactionData().receiverKey << ", amount: " << to.getTransactionData().amount << "\n";
+    }
+}
+
+bool Blockchain::isBlockchainValid() {
+    for(auto const &to : chain){
+        if(to.getBlockHash() != to.generateHash()) {
+            return false;
+        }
+    }
+    return true;
 }

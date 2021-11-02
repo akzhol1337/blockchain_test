@@ -4,8 +4,6 @@
 
 #include "Block.h"
 
-
-
 int Block::getIndex() const {
     return index;
 }
@@ -38,7 +36,7 @@ void Block::setPrevHash(size_t prevHash) {
     prev_hash = prevHash;
 }
 
-size_t Block::generateHash() {
+size_t Block::generateHash() const{
     string toHashS = to_string(transactionData.amount) + transactionData.receiverKey + transactionData.senderKey + to_string(transactionData.timestamp);
 // 2 hashes to combine
     hash<string> tDataHash; // hashes transaction data string
@@ -50,4 +48,6 @@ size_t Block::generateHash() {
 
 Block::Block(int index, const TransactionData &transactionData, size_t prevHash) : index(index),
                                                                                    transactionData(transactionData),
-                                                                                   prev_hash(prevHash) {}
+                                                                                   prev_hash(prevHash) {
+    this->block_hash = generateHash();
+}

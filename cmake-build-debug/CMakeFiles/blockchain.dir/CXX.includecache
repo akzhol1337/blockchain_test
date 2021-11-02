@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/undefined/CLionProjects/blockchain_test/Block.cpp
+Block.h
+/Users/undefined/CLionProjects/blockchain_test/Block.h
+
+/Users/undefined/CLionProjects/blockchain_test/Block.h
+main.cpp
+/Users/undefined/CLionProjects/blockchain_test/main.cpp
+
+/Users/undefined/CLionProjects/blockchain_test/Blockchain.cpp
+Blockchain.h
+/Users/undefined/CLionProjects/blockchain_test/Blockchain.h
+Block.h
+/Users/undefined/CLionProjects/blockchain_test/Block.h
+
+/Users/undefined/CLionProjects/blockchain_test/Blockchain.h
+Block.h
+/Users/undefined/CLionProjects/blockchain_test/Block.h
+
+/Users/undefined/CLionProjects/blockchain_test/main.cpp
+bits/stdc++.h
+-
+Blockchain.h
+/Users/undefined/CLionProjects/blockchain_test/Blockchain.h
+Block.h
+/Users/undefined/CLionProjects/blockchain_test/Block.h
+
