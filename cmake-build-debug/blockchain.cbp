@@ -92,6 +92,12 @@
 		<Unit filename="/Users/undefined/CLionProjects/blockchain_test/Blockchain.h">
 			<Option target="blockchain"/>
 		</Unit>
+		<Unit filename="/Users/undefined/CLionProjects/blockchain_test/Miner.cpp">
+			<Option target="blockchain"/>
+		</Unit>
+		<Unit filename="/Users/undefined/CLionProjects/blockchain_test/Miner.h">
+			<Option target="blockchain"/>
+		</Unit>
 		<Unit filename="/Users/undefined/CLionProjects/blockchain_test/TransactionData.cpp">
 			<Option target="blockchain"/>
 		</Unit>
